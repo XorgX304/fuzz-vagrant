@@ -11,7 +11,7 @@ This VM will provide:
 - afl 1.96b from packages
 - afl-latest compiled in /opt/afl-VERSION_HERE
 - preeny in /opt/preeny
-- valgrind from pacages
+- valgrind from packages
 - gdb
 - perf
 - ...
