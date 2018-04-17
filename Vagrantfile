@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
 
   config.vm.provider "virtualbox" do |vb|
-    v.cpus = 2
+    vb.cpus = 2
     vb.memory = "1024"
   end
 
