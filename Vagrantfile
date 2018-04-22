@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     #apt-get upgrade
-    apt-get install -y afl libtool htop scons gdb autoconf automake valgrind make cmake screen git vim linux-tools-common linux-tools-generic libini-config-dev
+    apt-get install -y afl libtool htop scons gdb autoconf automake valgrind make cmake screen git vim linux-tools-common linux-tools-generic libini-config-dev exuberant-ctags
     apt-get autoremove
 
     curl http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz -o /opt/afl-latest.tgz
